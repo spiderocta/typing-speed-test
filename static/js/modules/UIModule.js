@@ -127,7 +127,7 @@ var UIModule = (function () {
       } else if (wpm < 70) {
         results = {
           type: "horse",
-          image: "horse.jpg",
+          image: "/horse.jpg",
           level: "Average",
         };
       } else {
@@ -139,7 +139,7 @@ var UIModule = (function () {
       }
 
       var html =
-        '<div class="result"><p>You are a %type%!</p><p>You type at a speed of %wpm% words per minute!</p><img width="300" height="200" src="images/%image%" class= "rounded-circle" alt=%alt%></div>';
+        '<div class="result"><p>You are a %type%!</p><p>You type at a speed of %wpm% words per minute!</p><img width="300" height="200" src="static/images/%image%" class= "rounded-circle" alt=%alt%></div>';
 
       html = html.replace("%type%", results.type);
       html = html.replace("%wpm%", wpm);

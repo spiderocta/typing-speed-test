@@ -68,7 +68,7 @@ body {
 .keyboard {
     min-height: 25rem;
     max-height: 30rem;
-    background: url("./images/keyboard.png") no-repeat;
+    background: url("../images/keyboard.png") no-repeat;
     background-position: center;
     background-size: contain;
 }
