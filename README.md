@@ -17,6 +17,10 @@
                                 ⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⠿⠛⢁⡼⠃⠘⢦⡈⠛⠿⠟⠃⠀⠀⠀⠀⠀⠀⠀⠀
 ```
 
+# Status 
+
+![100%](https://progress-bar.dev/100/?title=Done) 
+
 ## About
 
 typing speed test web application with certificate of completion in a pdf format based on your results.
